@@ -13,11 +13,8 @@ pd.set_option('max_columns', None)
 
 
 
-FFN_KEY = "2013080279576845"
-YAHOO_CONSUMER_KEY= "dj0yJmk9VnJTdkVEZDZCd1p3JmQ9WVdrOVFuUnZNREJITXpRbWNHbzlNVEUxT1RVME16UTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD03OQ--"
-YAHOO_CONSUMER_SECRET= "712729697d7759bd37c442701fc894770b1383e2"
-
-
+import config
+print config.truck['color']
 
 
 def get_schedule():
